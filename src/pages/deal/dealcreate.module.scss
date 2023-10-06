@@ -1,0 +1,108 @@
+
+.wrapper{
+    position: absolute;
+
+    height: 100%;
+    width: 100%;
+
+
+
+    background: white;
+    
+    top: 0;
+    right: 0;
+
+    z-index: 10000000;
+
+    display: flex;
+}
+
+.dealcreate{
+    padding: 30px;
+    flex: 0 0 40%;
+
+}
+
+.dealcreate {
+
+	&__title {
+        color: #323C47;
+
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 30px; 
+        letter-spacing: 0.1px;
+
+        margin-bottom: 40px;
+	}
+}
+
+.addinformation {
+
+}
+
+.form {
+}
+
+.clientblock {
+    margin-top: 20px;
+}
+
+.clientblock {
+
+		&__title {
+            color: #818E9B;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 16px; 
+            letter-spacing: 0.2px;
+
+            margin-left: 5px;
+		}
+
+		&__input {
+            padding: 10px 10px;
+            width: 90%;
+
+            border: none;
+
+            border-bottom: 1px solid #818E9B;
+            outline: none;
+		}
+}
+
+.buttonSumbit {
+    width: 90%;
+    
+    border: none;
+    border-radius: 5px;
+
+    color: white;
+    background: #109CF1;
+
+    padding: 15px;
+    margin-top: 20px;
+
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+
+    &:hover{
+        
+        background: #0088dd;
+    }
+}
+
+.cancel {
+    position: absolute;
+
+    top: 3%;
+    right: 3%;
+
+    z-index: 100000;
+}
+
+.chat{
+    flex: 1 1 auto;
+    background: red;
+}

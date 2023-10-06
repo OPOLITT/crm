@@ -1,0 +1,49 @@
+.statistic {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 25px;
+        grid-row-gap: 25px;
+
+        margin-top: 30px;
+
+        font-size: 'Arial';
+
+
+}
+
+.statistic {
+
+    &__block {
+        padding: 30px 30px 40px 30px;
+        
+
+        text-align: center;
+        background: white;
+        border-radius: 5px;
+        border-left: 3px solid #109CF1;
+    }
+}
+.title {
+    display: block;
+
+    font-weight: 600;
+    color: #888;
+    font-size: 16px;
+
+    margin-bottom: 10px;
+}
+.value {
+    display: block; 
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+.curriency {
+    display: block; 
+    font-weight: 600;
+    color: #888;
+    font-size: 12px;
+}
+
+
